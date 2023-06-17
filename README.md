@@ -25,7 +25,7 @@ rails s # start application
 
 | Method | Endpoint                           |
 |--------|------------------------------------|
-| POST   | localhost:3000/api/games/compare   |
+| POST   | localhost:3000/api/games/play      |
 
 
 Post Example:

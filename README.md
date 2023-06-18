@@ -6,8 +6,8 @@ This project has the goal to simulate a variation of the game rock, scissors, pa
 
 | Name | Version | 
 |------|---------|
-| [Rails] | 7.0.5 |
-| [Ruby] | 3.0.0 | 
+| Rails | 7.0.5 |
+| Ruby | 3.0.0 | 
 
 ### Usage
 
@@ -31,22 +31,24 @@ rails s # start application
 Post Example:
 
 ```bash
-[
-    {
-        "name": "João",
-        "option": "lizard"
-    },
-    {
-        "name": "Maria",
-        "option": "rock"
-    }
-]
+{
+   "moves": [
+        {
+            "name": "Thor",
+            "move": "rock"
+        },
+        {
+            "name": "Hulk",
+            "move": "paper"
+        }
+    ]
+}
 ```
 
-OBS: name can be any name, option should be one of the available options below:
+OBS: name can be any name, move should be one of the available moves below:
 
 
-| Available options |
+|  Available moves  |
 |-------------------|
 |      rock         |
 |      paper        | 

@@ -30,11 +30,3 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  game:
-    messages:
-      wrong_number_of_players: "Wrong number of players"
-      draw_message: "It's a tie"
-      invalid_option: "Choose a valid option"
-      invalid_json: "Invalid JSON payload"
-      winner_message: "The Player %s has won!"
-

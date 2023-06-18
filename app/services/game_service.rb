@@ -21,15 +21,12 @@ class GameService
   def calculate_result
     move1 = @players.dig(0, :move)&.to_sym
     move2 = @players.dig(1, :move)&.to_sym
-    player1 = @players.dig(0, :name)
-    player2 = @players.dig(1, :name)
 
     return "It's a tie!" if move1 == move2
 
-    if WINNING_MOVES[move1].include?(move2)
-      "#{player1} wins!"
-    else
-      "#{player2} wins!"
-    end
+    player1 = @players.dig(0, :name)
+    player2 = @players.dig(1, :name)
+
+    WINNING_MOVES[move1].include?(move2) ? "#{player1} wins!" : "#{player2} wins!"
   end
 end

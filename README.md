@@ -4,6 +4,8 @@ This project has the goal to simulate a variation of the game rock, scissors, pa
 
 ## Requirements
 
+OBS: This standard rails application uses sqlite3 as default database.
+
 | Name | Version | 
 |------|---------|
 | Rails | 7.0.5 |
